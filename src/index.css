@@ -1,0 +1,27 @@
+@import url("assets/font/Poppins_Complete/css/poppins.css");
+
+
+
+
+
+
+* {
+    font-family: "Poppins-Variable";
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.dots {
+    margin-bottom: 1rem;
+
+}
+
+.carouselClass {
+    max-width: 830px;
+    display: block !important;
+}

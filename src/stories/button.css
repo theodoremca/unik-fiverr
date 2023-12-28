@@ -1,0 +1,64 @@
+.storybook-button {
+  font-weight: 400;
+  border: 0;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  gap: 2px;
+  flex-grow: 1;
+}
+
+.storybook-button--primary {
+  color: white;
+  background-color: #3B8BF1;
+}
+
+.storybook-button--secondary {
+  color: white;
+  background-color: #9F00D9;
+}
+
+.storybook-button--secondaryLight {
+  color: #9F00D9;
+  background-color: #F3D8FD;
+}
+
+
+.storybook-button--primary-outlined {
+  color: #3B8BF1;
+  background-color: transparent;
+  border: 1px solid #3B8BF1;
+}
+
+.storybook-button--secondary-outlined {
+  color: #9F00D9;
+  background-color: transparent;
+  border: 1px solid #9F00D9;
+}
+
+.storybook-button--secondaryLight-outlined {
+  color: #F3D8FD;
+  background-color: transparent;
+  border: 1px solid #F3D8FD;
+}
+
+
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
